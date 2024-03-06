@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="srtyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="calculator">
+      <input type="text" class="result" readonly />
+      <div class="content">
+        <button onclick="displaybtn(value)" class="operator" value="+">
+          +
+        </button>
+        <button onclick="displaybtn(value)" class="operator" value="-">
+          -
+        </button>
+        <button onclick="displaybtn(value)" class="operator" value="*">
+          *
+        </button>
+        <button onclick="displaybtn(value)" class="operator" value="/">
+          /
+        </button>
+        <button onclick="displaybtn(value)" value="1">1</button>
+        <button onclick="displaybtn(value)" value="2">2</button>
+        <button onclick="displaybtn(value)" value="3">3</button>
+        <button onclick="displaybtn(value)" value="4">4</button>
+        <button onclick="displaybtn(value)" value="5">5</button>
+        <button onclick="displaybtn(value)" value="6">6</button>
+        <button onclick="displaybtn(value)" value="7">7</button>
+        <button onclick="displaybtn(value)" value="8">8</button>
+        <button onclick="displaybtn(value)" value="9">9</button>
+        <button onclick="displaybtn(value)" value="0">0</button>
+        <button onclick="displaybtn(value)" value=".">.</button>
+        <button onclick="displaybtn(value)" value="(">(</button>
+        <button onclick="displaybtn(value)" value=")">)</button>
+        <button onclick="clearall()">C</button>
+        <button onclick="undothis()">&#8653;</button>
+        <button class="operator" onclick="evalthis()">=</button>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
